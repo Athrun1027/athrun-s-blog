@@ -1,0 +1,140 @@
+/*预设*/
+@font-face {
+    font-family: Dancing;
+    src: url('../fonts/Dancing.ttf');
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+a, a:hover,a:focus {
+    color: black;
+    text-decoration: none;
+}
+/*xs*/
+@media (max-width: 575px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+/*sm*/
+@media (min-width: 576px) {
+    html{
+        font-size: 16px;
+    }
+}
+
+/*md*/
+@media (min-width: 768px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+/*lg*/
+@media (min-width: 992px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+/*xl*/
+@media (min-width: 1200px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+/*自定义的英文字体*/
+.Dancing {
+    font-family: Dancing, cursive;
+}
+/*自定义的中文字体*/
+.Dancing2 {
+    font-family: cursive;
+}
+
+/*头部*/
+nav.navbar {
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    font-size: 1.1rem;
+    background: rgba(255, 255, 255,0);
+    padding-top:0;
+    padding-bottom:0;
+}
+.navbar-nav .active {
+    background-color: rgba(150, 149, 147, 0.8);
+}
+.nav-item, .nav-item:hover {
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+}
+.nav-item:hover {
+    background-color: rgba(150, 149, 147, .2);
+}
+.navbar-shrink {
+    font-size: 1rem!important;
+    background: rgba(255, 255, 255,0.6)!important;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+}
+
+/*横线中间字效果*/
+.line {
+    height: 1px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin: 20px 0;
+}
+.line-content {
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    background: #ffffff;
+    padding: 0 20px;
+}
+
+/*透明按钮效果*/
+.input-style{
+    background: rgba(255,255,255,0.15);
+    border: 0;
+    color: rgba(99, 108, 114, 1)!important;
+}
+
+/*尾部*/
+.footer {
+    height: 4rem;
+    font-size: 0.75rem;
+    font-family: Dancing, cursive;
+    background-color: rgba(40, 54, 69,1);
+}
+
+/*回到顶部按钮*/
+.to-top, .to-top:hover, .top-show{
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    padding: 0 0.25rem;
+    border-radius: 0.25rem;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .6s;
+}
+.to-top{
+    opacity: 0;
+    color: rgba(99, 108, 114, 1);
+    background-color: rgba(77, 104, 131, 0.4);
+}
+.to-top:hover{
+    opacity: 0;
+    color: white;
+    background-color: rgba(77, 104, 131, 0.9);
+}
+.top-show{
+    opacity: 1!important;
+}

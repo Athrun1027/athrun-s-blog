@@ -1,0 +1,45 @@
+html{
+    overflow: hidden;
+}
+.enter_index_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.enter_index_a, .enter_index_a:hover {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    color: #1d1e1f;
+    font-family: Dancing, cursive;
+}
+/*xs*/
+@media (max-width: 575px) {
+    .enter_index_background {
+        background-image: url("https://static.athrun.org/blog/enter_xs.jpg");
+    }
+    .enter_index_a {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .enter_decoration {
+        margin-top: 35%;
+        font-size: 1.25rem;
+    }
+}
+/*sm*/
+@media (min-width: 576px) {
+    .enter_index_background {
+        background-image: url("https://static.athrun.org/blog/enter_sm.jpg");
+    }
+    .enter_index_a {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .enter_index_a:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}
