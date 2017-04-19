@@ -3,4 +3,6 @@
         $('.carousel-words').removeClass('carousel-show');
     }).on('slid.bs.carousel', function () {
         $('.carousel-words').addClass('carousel-show');
+    }).carousel({
+        pause: "hover"
     });

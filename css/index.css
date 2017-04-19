@@ -49,6 +49,7 @@
 }
 .index_box{
     padding: 0;
+    height: 11.5rem;
 }
 .index_box_background, .index_box_background:hover {
     overflow: hidden;

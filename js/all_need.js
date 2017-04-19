@@ -36,4 +36,9 @@
             $top.removeClass('top-show');
         }
     });
+// 提示框初始化
+    $(function () {
+       $('[data-toggle="tooltip"]').tooltip();
+    });
+
 

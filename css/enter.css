@@ -16,7 +16,6 @@ html{
     transition-timing-function: ease-in-out;
     transition-duration: .5s;
     color: #1d1e1f;
-    font-family: Dancing, cursive;
 }
 /*xs*/
 @media (max-width: 575px) {
