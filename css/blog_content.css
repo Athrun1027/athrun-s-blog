@@ -1,0 +1,99 @@
+/*自定义导航栏的颜色*/
+nav.navbar {
+    /*background: rgba(91, 192, 222,1) !important;*/
+    color: white!important;
+}
+.sort_content{
+    margin-top: 4rem;
+}
+
+/*文章详情*/
+.blog_content{
+    min-height: 27rem;
+}
+.myself_blog{
+    color: rgba(81, 186, 227,1);
+    font-size: 1.5rem;
+    border: 2px solid;
+    border-color: rgba(81, 186, 227,1);
+    border-radius: 50%;
+}
+.myput_blog{
+    color: rgba(251, 112, 129,1);
+    font-size: 1.5rem;
+    border: 2px solid;
+    border-color: rgba(251, 112, 129,1);
+    border-radius: 50%;
+}
+.blog_markdown_topic{
+    height: 100%;
+    width: 27%;
+    font-size: 0.25rem!important;
+    position: fixed;
+    background-color: #2aabd2;
+    right: 0;
+    top: 2.5rem;
+    padding-top: 1rem;
+}
+
+
+
+
+.blog_tags > a{
+    background-color: rgba(212,212,212,0.8);
+    padding: 0.25rem;
+    border-radius: 0.2rem;
+}
+
+.blog_about_item{
+    height: 5rem;
+}
+.blog_about_item > a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: rgba(212,212,212,0.8);
+    border-radius: 0.2rem;
+}
+.blog_about_item_up{
+    height: 80%;
+    width: 100%;
+    display: block;
+    line-height: 4rem;
+    text-align: center;
+}
+.blog_about_item_down{
+    height: 20%;
+    width: 100%;
+    display: block;
+    line-height: 1rem;
+    font-size: 0.5rem;
+    text-align: right;
+}
+
+
+.topic_close, .topic_close:hover{
+    width: 1.7rem;
+    height: 1.7rem;
+    text-align: center;
+    position: fixed;
+    right: 2rem;
+    bottom: 4rem;
+    padding: 0 0.25rem;
+    border-radius: 0.25rem;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .6s;
+    z-index: 2000;
+}
+.topic_close > span{
+    line-height: 1.7rem;
+}
+.topic_close{
+    color: rgba(99, 108, 114, 1);
+    background-color: rgba(77, 104, 131, 0.4);
+}
+.topic_close:hover{
+    color: white;
+    background-color: rgba(77, 104, 131, 0.9);
+}

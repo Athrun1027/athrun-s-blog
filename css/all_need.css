@@ -79,6 +79,7 @@ nav.navbar {
 .navbar-shrink {
     font-size: 1rem!important;
     opacity: 0.6;
+    background: rgba(91, 192, 222,0.95) !important;
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
@@ -95,6 +96,19 @@ nav.navbar {
     display: inline-block;
     position: relative;
     top: -2rem;
+    background: #ffffff;
+    padding: 0 20px;
+}
+.line_sm {
+    height: 1px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin: 20px 0;
+}
+.line_sm-content {
+    display: inline-block;
+    position: relative;
+    top: -1.7rem;
     background: #ffffff;
     padding: 0 20px;
 }
@@ -116,6 +130,9 @@ nav.navbar {
 
 /*回到顶部按钮*/
 .to-top, .to-top:hover, .top-show{
+    width: 1.7rem;
+    height: 1.7rem;
+    text-align: center;
     position: fixed;
     bottom: 4rem;
     right: 4rem;
@@ -124,6 +141,9 @@ nav.navbar {
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: .6s;
+}
+.to-top > span{
+    line-height: 1.7rem;
 }
 .to-top{
     opacity: 0;

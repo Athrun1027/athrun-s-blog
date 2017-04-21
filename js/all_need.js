@@ -30,7 +30,7 @@
             $nav.addClass('navbar-inverse');
         }
         //    窗口滑动到一定位置开始显示回到顶部按钮
-        if (code > 600) {
+        if (code > 400) {
             $top.addClass('top-show');
         } else {
             $top.removeClass('top-show');

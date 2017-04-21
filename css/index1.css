@@ -1,9 +1,46 @@
+/*自定义导航栏的颜色*/
 nav.navbar {
     background: rgba(91, 192, 222,1) !important;
     color: white!important;
 }
+
+/*选择栏&排序栏*/
 .crumbs_content{
-    margin-top: 3rem;
+    margin-top: 4rem;
+}
+.breadcrumb{
+    font-size: 0.9rem;
+}
+li.breadcrumb-item > a, li.breadcrumb-item > a:hover{
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    border-radius: 0.15rem;
+    padding: 0.15rem;
+}
+li.breadcrumb-item.active > a{
+    background-color: rgba(0,0,0,0.8) !important;
+    color: white;
+}
+li.breadcrumb-item > a:hover{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+/*博客内容*/
+.cards_content {
+    min-height: 28rem;
+}
+.card:hover,.card {
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+}
+.card:hover{
+    box-shadow: 0 10px 25px 0 rgba(99, 108, 114, 1);
+}
+.cards_col{
+    margin: 0 0 1rem 0;
 }
 .card_background{
     background-size: cover;
@@ -15,6 +52,7 @@ nav.navbar {
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
     padding: 1.25rem;
+    height: 10rem;
 }
 .card_content{
     font-size: smaller;
@@ -27,5 +65,10 @@ nav.navbar {
 }
 .card_content_title{
     position: absolute;
-    bottom: 3rem;
+    bottom: 1.3rem;
+}
+
+/*换页按钮*/
+.pagination_content{
+    height: 3rem;
 }
