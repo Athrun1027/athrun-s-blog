@@ -15,6 +15,9 @@ a, a:hover,a:focus {
     color: black;
     text-decoration: none;
 }
+.text-black{
+    color: black!important;
+}
 /*xs*/
 @media (max-width: 575px) {
     html{
@@ -57,10 +60,7 @@ a, a:hover,a:focus {
 
 /*头部*/
 nav.navbar {
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: .7s;
-    background: rgba(255, 255, 255,0);
+    background: rgba(91, 192, 222,1);
     font-size: 1.1rem;
     padding-top:0;
     padding-bottom:0;
@@ -76,14 +76,7 @@ nav.navbar {
 .nav-item:hover {
     background-color: rgba(150, 149, 147, .2);
 }
-.navbar-shrink {
-    font-size: 1rem!important;
-    opacity: 0.6;
-    background: rgba(91, 192, 222,0.95) !important;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: .7s;
-}
+
 
 /*横线中间字效果*/
 .line {
@@ -130,8 +123,6 @@ nav.navbar {
 
 /*回到顶部按钮*/
 .to-top, .to-top:hover, .top-show{
-    width: 1.7rem;
-    height: 1.7rem;
     text-align: center;
     position: fixed;
     bottom: 4rem;
@@ -141,9 +132,6 @@ nav.navbar {
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: .6s;
-}
-.to-top > span{
-    line-height: 1.7rem;
 }
 .to-top{
     opacity: 0;
@@ -157,4 +145,19 @@ nav.navbar {
 }
 .top-show{
     opacity: 1!important;
+}
+/*原创和推荐图标*/
+.myget_blog{
+    color: rgb(80, 227, 49);
+    font-size: 1rem;
+    border: 2px solid;
+    border-color: rgba(80, 227, 49, 1);
+    border-radius: 50%;
+}
+.myput_blog{
+    color: rgba(251, 112, 129,1);
+    font-size: 1rem;
+    border: 2px solid;
+    border-color: rgba(251, 112, 129,1);
+    border-radius: 50%;
 }

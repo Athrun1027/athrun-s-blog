@@ -1,0 +1,17 @@
+/*自定义导航栏的颜色*/
+nav.navbar {
+    /*background: rgba(91, 192, 222,1) !important;*/
+    color: white!important;
+}
+
+/*文章详情*/
+.labtop_content{
+    min-height: 27rem;
+    padding: 0;
+}
+
+.music_myself{
+    position: fixed;
+    top: 8rem;
+    right: 1rem;
+}

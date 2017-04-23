@@ -1,8 +1,145 @@
-/*自定义导航栏的颜色*/
-nav.navbar {
-    background: rgba(91, 192, 222,1) !important;
-    color: white!important;
+.myself_all{
+    padding: 0 2rem 0;
 }
+
+/*个人信息*/
+.myself_info{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-right:dashed 1px rgba(236, 236, 236, 0.8);
+}
+.myself_info a:hover{
+    color: black !important;
+}
+.myself_pic{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
+}
+.myself_point_one, .myself_point{
+    display: inline-block;
+    padding: 0 0.25rem 0;
+}
+.myself_point{
+    border-left: 1px rgba(99, 108, 114, .6) solid;
+}
+.myself_count{
+    margin-top: 1rem;
+}
+.myself_count > a:before{
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius: 50%;
+    background: #3bffff;
+}
+.myself_count > a > span{
+    margin: 0 0.25rem 0;
+}
+.myself_count > a {
+    color: #4b5257;
+    margin: 0 0.5rem 0;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: solid #4b5257 0.05rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.sort_header{
+    margin-top: 2rem;
+    border-bottom: solid #4b5257 0.04rem;
+}
+.sort_content > a {
+    color: #4b5257;
+    margin-top: 0.25rem;
+    padding: 0 1rem;
+    display: block;
+    text-align: left;
+}
+.sort_content > a > span{
+    margin-top: 0.2rem;
+}
+.sort_content > a:hover {
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    border-radius: 1rem;
+    background-color: #8a9196;
+}
+.sort_content > a.active {
+    color: black;
+    border-radius: 1rem;
+    background-color: #8a9196;
+}
+
+/*日志*/
+.myself_blog_items{
+    border-top: solid 1px gray!important;
+}
+.myself_blog{
+    border-radius: 0.25rem;
+}
+.myself_blog_item{
+    margin: 0;
+    padding: 0 0 1rem;
+    border-bottom: solid 1px gray!important;
+}
+.card-header{
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    padding: 0.5rem 0;
+    background-color: #d4d4d4;
+    border-radius: 0!important;
+}
+.card-header_hover {
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    background-color: rgba(91, 192, 222,1) !important;
+    border-radius: 0!important;
+}
+.card-footer{
+    padding: 0 0;
+}
+.card:hover,.card {
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    border-radius: 0;
+    border: none;
+}
+.card:hover{
+    background-color: rgba(91, 192, 222,1) !important;
+}
+.cards_col{
+    margin: 0 0 1rem 0;
+}
+.card_background{
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.card_content,.card_content:hover{
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    padding: 1.25rem;
+    height: 5rem;
+}
+.card_content{
+    font-size: smaller;
+    opacity: 0.3;
+}
+.card_content:hover{
+    font-size: 1rem;
+    background-color: rgba(91, 192, 222,0.6);
+    opacity: 1;
+}
+
+
 
 /*选择栏&排序栏*/
 .crumbs_content{
@@ -31,42 +168,7 @@ li.breadcrumb-item > a:hover{
 .cards_content {
     min-height: 28rem;
 }
-.card:hover,.card {
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: .7s;
-}
-.card:hover{
-    box-shadow: 0 10px 25px 0 rgba(99, 108, 114, 1);
-}
-.cards_col{
-    margin: 0 0 1rem 0;
-}
-.card_background{
-    background-size: cover;
-    background-position: center;
-    padding: 0;
-}
-.card_content,.card_content:hover{
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: .7s;
-    padding: 1.25rem;
-    height: 10rem;
-}
-.card_content{
-    font-size: smaller;
-    opacity: 0;
-}
-.card_content:hover{
-    font-size: 1rem;
-    background-color: rgba(91, 192, 222,0.9);
-    opacity: 1;
-}
-.card_content_title{
-    position: absolute;
-    bottom: 1.3rem;
-}
+
 
 /*换页按钮*/
 .pagination_content{

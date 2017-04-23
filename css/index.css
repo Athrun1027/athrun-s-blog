@@ -1,3 +1,11 @@
+/*头部*/
+nav.navbar {
+    position: absolute;
+    z-index: 1000;
+    background: transparent !important;
+}
+
+
 /*轮播图*/
 .carousel-item, .index_box {
     background-size: cover;

@@ -18,19 +18,10 @@
     });
 //    窗口滑动到一定位置
     $(window).scroll(function () {
-        $nav = $("#mainNav");
         $top = $(".to-top");
-        var code = $nav.offset().top;
-        //    窗口滑动到一定位置开始不透明显示导航栏
-        if (code > 100) {
-            $nav.addClass('navbar-shrink');
-            $nav.removeClass('navbar-inverse');
-        } else {
-            $nav.removeClass('navbar-shrink');
-            $nav.addClass('navbar-inverse');
-        }
-        //    窗口滑动到一定位置开始显示回到顶部按钮
-        if (code > 400) {
+        var code = $top.offset().top;
+           // 窗口滑动到一定位置开始显示回到顶部按钮
+        if (code > 1000) {
             $top.addClass('top-show');
         } else {
             $top.removeClass('top-show');

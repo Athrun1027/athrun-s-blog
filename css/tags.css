@@ -1,0 +1,47 @@
+.tags{
+    min-height: 87%;
+}
+.tags_header{
+    width: 60%;
+    margin: 3rem auto 0;
+}
+.tags_header_header{
+    font-size: 2rem;
+}
+.tags_content{
+    text-align: center;
+    width: 60%;
+    margin: 2rem auto 0;
+}
+.tags_lv{
+    margin: 2rem 0.5rem 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+}
+.tags_lv:hover {
+    margin: 2rem 0.5rem 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 1);
+}
+.tags_lv1{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.tags_lv2{
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+.tags_lv3{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+.tags_lv4{
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+.tags_lv5{
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+.tags_lv6{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 1) !important;
+}
