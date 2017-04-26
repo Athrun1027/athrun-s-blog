@@ -1,6 +1,6 @@
 /*自定义导航栏的颜色*/
 nav.navbar {
-    /*background: rgba(91, 192, 222,1) !important;*/
+    /*background: transparent !important;*/
     color: white!important;
 }
 
@@ -12,7 +12,9 @@ nav.navbar {
 .blog_markdown{
     padding: 0;
 }
-
+.sort_content{
+    margin-top: 2rem;
+}
 
 /*日志相关*/
 .blog_tags > a{
@@ -49,4 +51,20 @@ nav.navbar {
     position: fixed;
     top: 9rem;
     right: 1rem;
+}
+
+body{
+    background: url("../img/cover2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 55%;
+}
+.body_cover{
+    background-color: rgba(255,255,255,0.4);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: -1;
 }
